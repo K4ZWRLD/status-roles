@@ -45,6 +45,6 @@ module.exports = async (client) => {
   })();
   client.user.setPresence({
     activities: [{ name: `food` }],
-    status: `${process.env.DISCORDSTATUS}`,
+    status: `dnd`,
   });
 };
